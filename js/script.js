@@ -54,7 +54,7 @@ function TextTypingAnime() {
 particlesJS("pt1", {
   "particles": {
     "number": {
-      "value": 1500,/*この数値を変更すると雪の数が増減できる*/
+      "value": 100,/*この数値を変更すると雪の数が増減できる*/
       "density": {
         "enable": true,
         "value_area": 800
@@ -100,12 +100,12 @@ particlesJS("pt1", {
     },
     "move": {
       "enable": true,
-      "speed": 3,/*この数値を小さくするとゆっくりな動きになる*/
+      "speed": 1,/*この数値を小さくするとゆっくりな動きになる*/
       "direction": "bottom",/*下に向かって落ちる*/
       "random": true,/*動きはランダム*/
       "straight": false,/*動きをとどめない*/
       "out_mode": "out",/*画面の外に出るように描写*/
-      "bounce": false,/*跳ね返りなし*/
+      "bounce": true,/*跳ね返りなし*/
       "attract": {
         "enable": true,
         "rotateX": 300,
@@ -132,7 +132,7 @@ particlesJS("pt1", {
 particlesJS("pt2", {
   "particles": {
     "number": {
-      "value": 1500,/*この数値を変更すると雪の数が増減できる*/
+      "value": 1000,/*この数値を変更すると雪の数が増減できる*/
       "density": {
         "enable": true,
         "value_area": 800
@@ -178,12 +178,12 @@ particlesJS("pt2", {
     },
     "move": {
       "enable": true,
-      "speed": 3,/*この数値を小さくするとゆっくりな動きになる*/
+      "speed": 1,/*この数値を小さくするとゆっくりな動きになる*/
       "direction": "bottom",/*下に向かって落ちる*/
       "random": true,/*動きはランダム*/
       "straight": false,/*動きをとどめない*/
       "out_mode": "out",/*画面の外に出るように描写*/
-      "bounce": false,/*跳ね返りなし*/
+      "bounce": true,/*跳ね返りなし*/
       "attract": {
         "enable": true,
         "rotateX": 300,
@@ -213,7 +213,7 @@ particlesJS("pt2", {
 particlesJS("pt3", {
 	"particles":{
 		"number":{
-			"value":15,/*この数値を変更すると落ち葉の数が増減できる*/
+			"value":1500,/*この数値を変更すると落ち葉の数が増減できる*/
 			"density":{
 				"enable":true,
 				"value_area":1121.6780303333778
@@ -290,7 +290,7 @@ particlesJS("pt3", {
 particlesJS("pt4", {
 	"particles":{
 		"number":{
-			"value":15,/*この数値を変更すると落ち葉の数が増減できる*/
+			"value":1500,/*この数値を変更すると落ち葉の数が増減できる*/
 			"density":{
 				"enable":true,
 				"value_area":1121.6780303333778
@@ -367,7 +367,7 @@ particlesJS("pt4", {
 particlesJS("pt5", {
 	"particles":{
 		"number":{
-			"value":15,/*この数値を変更すると落ち葉の数が増減できる*/
+			"value":1500,/*この数値を変更すると落ち葉の数が増減できる*/
 			"density":{
 				"enable":true,
 				"value_area":1121.6780303333778
@@ -444,7 +444,7 @@ particlesJS("pt5", {
 particlesJS("pt6", {
 	"particles":{
 		"number":{
-			"value":15,/*この数値を変更すると落ち葉の数が増減できる*/
+			"value":1500,/*この数値を変更すると落ち葉の数が増減できる*/
 			"density":{
 				"enable":true,
 				"value_area":1121.6780303333778
@@ -592,4 +592,3 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-
