@@ -132,7 +132,7 @@ particlesJS("pt1", {
 particlesJS("pt2", {
   "particles": {
     "number": {
-      "value": 150,/*この数値を変更すると雪の数が増減できる*/
+      "value": 1500,/*この数値を変更すると雪の数が増減できる*/
       "density": {
         "enable": true,
         "value_area": 800
