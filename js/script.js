@@ -53,7 +53,7 @@ function TextTypingAnime() {
 particlesJS("pt3", {
 	"particles":{
 		"number":{
-			"value":1500,/*この数値を変更すると落ち葉の数が増減できる*/
+			"value":150,/*この数値を変更すると落ち葉の数が増減できる*/
 			"density":{
 				"enable":true,
 				"value_area":1121.6780303333778
@@ -68,7 +68,7 @@ particlesJS("pt3", {
 				"width":0,
 			},
 			"image":{
-				"src":"img/flower.png",/*画像を指定*/
+				"src":"img/logo.png",/*画像を指定*/
 				"width":190,
 				"height":204
 			}
@@ -84,7 +84,7 @@ particlesJS("pt3", {
 			}
 		},
 		"size":{
-			"value":12,
+			"value":30,
 			"random":true,/*サイズをランダムに*/
 			"anim":{
 				"enable":false,
@@ -145,7 +145,7 @@ particlesJS("pt4", {
 				"width":0,
 			},
 			"image":{
-				"src":"img/flower.png",/*画像を指定*/
+				"src":"img/logo.png",/*画像を指定*/
 				"width":190,
 				"height":204
 			}
@@ -222,7 +222,7 @@ particlesJS("pt5", {
 				"width":0,
 			},
 			"image":{
-				"src":"img/flower.png",/*画像を指定*/
+				"src":"img/logo.png",/*画像を指定*/
 				"width":190,
 				"height":204
 			}
@@ -299,7 +299,7 @@ particlesJS("pt6", {
 				"width":0,
 			},
 			"image":{
-				"src":"img/flower.png",/*画像を指定*/
+				"src":"img/logo.png",/*画像を指定*/
 				"width":190,
 				"height":204
 			}
